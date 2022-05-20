@@ -1,0 +1,75 @@
+body{
+  background-color: white;
+  color: black;
+}
+.head {
+  height: 100px;
+  background: transparent;
+  background: fixed;
+  color: white;
+  padding: 30px 50px;
+  font-size: large;
+  font: 1em sans-serif;
+  font-weight: 500;
+}
+
+.head nav ul {
+  height: 100%;
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+.head nav ul li {
+  padding: 0 45px;
+}
+
+.head nav ul li:hover {
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.parallax {
+
+  /* background-image: url("images/buddha-park-sikkim.jpg");*/
+
+  min-height: 1000px;
+
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  border: 2px;
+  border-style: double;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.button:hover{
+  background-color: rgb(106, 10, 10);
+}
+
+
+.para {
+  display: flex;
+  align-items: center;
+  height: 250px;
+  background-color: white;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  padding: 0px 15px;
+  font-family: sans-serif;
+}
